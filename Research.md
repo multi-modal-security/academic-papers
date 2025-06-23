@@ -61,12 +61,5 @@
 |**核心贡献**|1.攻击方法生成的prompt是语义可理解的；2.利用遗传算法从句子和段落两个水平寻找prompt。|
 |**代码链接**|https://github.com/SheltonLiu-N/AutoDAN|
 |**思考**|1.开销太大；[2.是不是可以加入分形特征来优化prompt.](https://papers.nips.cc/paper_files/paper/2024/file/cd004fa45fc1fe5c0218b7801d98d036-Paper-Conference.pdf)|
-|**BibTex**|@inproceedings{
-liu2024autodan,
-title={Auto{DAN}: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models},
-author={Xiaogeng Liu and Nan Xu and Muhao Chen and Chaowei Xiao},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=7Jwpw4qKkb}
-}|
+|**BibTex**|@inproceedings{liu2024autodan, title={Auto{DAN}: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models}, author={Xiaogeng Liu and Nan Xu and Muhao Chen and Chaowei Xiao}, booktitle={The Twelfth International Conference on Learning Representations}, year={2024}, url={https://openreview.net/forum?id=7Jwpw4qKkb}}|
 |**标签**|#Jailbreak #Prompt #Genetic policies|
