@@ -74,3 +74,14 @@
 |**思考**|1.奖励函数必须利用两个模型，一个目标模型，一个推理模型，推理模型的选择是否影响结果呢；2.有没有可能利用一个模型就能达到目的。|
 |**BibTex**|@inproceedings{xie2025jailbreaking, title={Jailbreaking as a Reward Misspecification Problem}, author={Zhihui Xie and Jiahui Gao and Lei Li and Zhenguo Li and Qi Liu and Lingpeng Kong}, booktitle={The Thirteenth International Conference on Learning Representations}, year={2025}, url={https://openreview.net/forum?id=uBnM3EFovQ}}|
 |**标签**|#Jailbreak #Prompt #Reward #Adversarial attack|
+
+## 8. [Masterkey: Automated Jailbreaking of LLM Chatbots.(2024)](https://www.ndss-symposium.org/wp-content/uploads/2024-188-paper.pdf)
+|字段|内容|
+|----------|---------------------------------|
+|**作者**|   Gelei Deng, Yi Liu, Yuekang Li, et al.|
+|**录用**|NDSS 2024|
+|**核心贡献**|1.通过逆向工程对大模型中的防御机制进行了探讨，主要是通过不同问题组合提问，计算回答的时间差，得到大模型内部的数据流向，从而逆向出LLM Chatbot内部jailbreak 防御的模块；2.受time-based SQL injection启发，提出POC攻击方法，|
+|**代码链接**|https://github.com/LLMSecurity/MasterKey.|
+|**思考**|1.|
+|**BibTex**|@misc{liu2024jailbreaking, title={Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study}, author={Yi Liu and Gelei Deng and Zhengzi Xu and Yuekang Li and Yaowen Zheng and Ying Zhang and Lida Zhao and Tianwei Zhang and Kailong Wang and Yang Liu}, year={2024}, eprint={2305.13860}, archivePrefix={arXiv}}|
+|**标签**|#Jailbreak |
